@@ -20,9 +20,7 @@ module.exports.sendMail = async (data) => {
 
   let mailOption = {
     from: `Новости Rocket <${user}>`,
-    // to: 'rocket-news@ocs.ru',
-    // to: 'testiopanasyuk@gmail.com',
-    to: 'iopanasyuk@ocs.ru',
+    to: 'test@mail.ru',
     subject: 'Дайджест Rocket',
     html: templateEmail,
     attachments: [{
